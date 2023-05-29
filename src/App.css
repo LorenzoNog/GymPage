@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background:linear-gradient(to right,rgb(85, 183, 225) 30%,rgb(85, 208, 241),white);
+  overflow-x: hidden;
+}
+#textStroke{
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+#textStroke2{
+  color: transparent;
+  -webkit-text-stroke: 1px black;
+}
+.containerImg{
+  flex: 1 1;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 1rem;
+}
+.reasons{
+  margin-top: 10%;
+  padding: 2rem;
+  display: flex;
+  gap: 2rem;
+}
